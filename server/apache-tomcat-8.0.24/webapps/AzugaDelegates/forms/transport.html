@@ -1,0 +1,48 @@
+<strong>Vehicle Service Entry</strong>
+
+<form role="form" class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label">User</label>
+    <div class="controls">
+      <input type="text" class="form-control" 
+        cam-variable-name="email"
+        cam-variable-type="String"
+        required  
+        ng-pattern="/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/"
+        />
+    </div>
+    
+     <div class="control-group">
+    <label class="control-label">Phone</label>
+    <div class="controls">
+      <input type="text" class="form-control" 
+        cam-variable-name="phone"
+        cam-variable-type="String"
+        required  
+     
+        />
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label">Vehicle Number</label>
+    <div class="controls">
+      <input type="text" class="form-control"
+		cam-variable-name="content"
+        cam-variable-type="String"        
+        required
+        />
+    </div>
+  </div>  
+  
+   <div class="control-group">
+    <label class="control-label">Group Name</label>
+    <div class="controls">
+      <input type="text" class="form-control"
+		cam-variable-name="group"
+        cam-variable-type="String"        
+        required
+        />
+    </div>
+  </div>  
+  
+</form>
